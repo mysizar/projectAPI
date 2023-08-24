@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #303030 !important;
+  color: #eee;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list-group-item {
+  border: 1px solid rgba(255, 255, 255, 0.125) !important;
+}
+
+.card {
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+}
+
+.container {
+  position: fixed;
+  top: 0;
+}
